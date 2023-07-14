@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>box盒子模型</title>
+    <style>
+      .first {
+        border: 1px solid red;
+      }
+      .second {
+        margin: 5px;
+        border: 1px solid green;
+        height: 40px;
+        padding: 5px;
+      }
+      .first-line {
+        margin-top: 20px;
+        margin-left: 20px;
+        border: solid blue;
+        padding: 30px;
+        /* padding-right: 60px; */
+        line-height: 100px;
+      }
+      .second-line {
+        margin-top: 20px;
+        margin-left: 20px;
+        border: solid green;
+        /* border-style: solid gray; 单独设置样式 */
+        /* border-color: yellow; */
+        /* border-width: 2px; */
+        padding-right: 60px;
+        /* padding: 30px; */
+        line-height: 100px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="first">123456</div>
+    <div class="second">123456</div>
+    <div>
+      <span class="first-line">1234</span>
+      <span class="second-line">1234</span>
+    </div>
+  </body>
+</html>

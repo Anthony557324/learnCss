@@ -1,0 +1,14 @@
+/**
+[选择器]{
+    [属性]:[值];
+}
+
+class选择器
+
+.[classname]{
+    color:red;
+}
+*/
+.out{
+    color: green;
+}
