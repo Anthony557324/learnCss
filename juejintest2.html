@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>juejintest2</title>
+    <style>
+        body{
+            margin: 0;
+        }
+        .webblock1{
+            background-color:blue ;
+            width: 100%;
+            height: 60px;
+        }
+        .webblock2{
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-start;
+        }
+        .webblockleft{
+            background-color: greenyellow;
+            width: 519.2px;
+            height: 685px;
+            overflow-y: scroll;
+        }
+        .webblockfirst{
+            background-color: aquamarine;
+            width: 500px;
+            height: 700px;
+        }
+        .background {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        height: 685px;
+        background-color: #f2f3f5;
+        overflow-y: scroll;
+      }
+      .container {
+        display: flex;
+        flex-direction: column;
+        width: 1000px;
+        height: 1000px;
+        justify-content: center;
+        align-items: center;
+      }
+      .top {
+        display: flex;
+        flex-direction: row;
+        background-color: white;
+        width: 692px;
+        height: 72px;
+        margin: 20px 0;
+        padding: 20px;
+      }
+      img {
+        width: 72px;
+        height: 72px;
+        margin-right: 20px;
+        border-radius: 72px;
+      }
+      .bottomright {
+        height: 12px;
+        padding: 15px 0;
+      }
+      .username {
+        width: 328.66px;
+        height: 25px;
+        margin-right: 10px;
+      }
+      .data-item {
+        color: #8a919f;
+      }
+      .count {
+        color: black;
+      }
+      .fengefu {
+        color: #c2c8d1;
+        margin: 0 12px;
+        height: 13px;
+        width: 1px;
+      }
+      .titleline {
+        background-color: white;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 20px;
+        border-bottom: 1px solid #e5e6eb;
+        width: 692px;
+      }
+      .title {
+        display: flex;
+        align-items: center;
+        margin: 16px 0;
+      }
+      svg {
+        margin-left: 2px;
+      }
+      .card {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        background-color: white;
+        width: 732px;
+        height: 600px;
+        margin: 0;
+        border-bottom: 20px solid #f2f3f5;
+      }
+
+      .more {
+        color: #86909c;
+        font-size: 14px;
+      }
+      .smallcard {
+        width: calc(1 / 3 * 432px);
+        height: 94px;
+        margin: 20px 20px 0 0;
+        background-color: rgb(247, 248, 250);
+        padding: 16px 20px 16px 20px;
+      }
+      .cardtext {
+        font-size: 14px;
+        color: #4e5969;
+      }
+      .cardnum {
+        padding: 5px 0 5px 0;
+        font-size: 32px;
+        font-weight: bold;
+      }
+      .cardbox {
+        font-size: 12px;
+        color: #4e5969;
+      }
+      .zhiding{
+        position: fixed;
+        bottom: 50px;
+        right: 50px;
+        width: 32px;
+        height: 32px;
+        border-radius: 32px;
+      }
+    </style>
+</head>
+<body>
+    <div class="webblock1"></div>
+    <div class="webblock2">
+        <div class="webblockleft">
+            <div class="webblockfirst"></div>
+        </div>
+        <div class="webblockright">
+            <div class="background">
+                <div class="container">
+                  <div class="top">
+                    <img src="./img/picture.JPG" alt="" />
+                    <div class="message">
+                      <div class="username">
+                        <span class="name">Anthony659</span>
+                      </div>
+                      <div class="bottomright">
+                        <span class="data-item">
+                          <span class="count">0</span>
+                          粉丝
+                        </span>
+                        <span class="fengefu">|</span>
+                        <span class="data-item">
+                          <span class="count">0</span>
+                          关注
+                        </span>
+                        <span class="fengefu">|</span>
+                        <span class="data-item">
+                          <span class="count">0</span>
+                          掘力值
+                        </span>
+                        <span class="fengefu">|</span>
+                        <span class="data-item">
+                          在掘金创作的
+                          <span class="count">0</span>
+                          天
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+          
+                  <div class="titleline">
+                    <div class="title">
+                      数据概览
+                      <svg
+                        t="1689417142228"
+                        class="icon"
+                        viewBox="0 0 1024 1024"
+                        version="1.1"
+                        xmlns="http://www.w3.org/2000/svg"
+                        p-id="2614"
+                        width="14"
+                        height="14"
+                      >
+                        <path
+                          d="M512 0C230.4 0 0 230.4 0 512s230.4 512 512 512 512-230.4 512-512S793.6 0 512 0zM512 960c-249.6 0-448-198.4-448-448 0-249.6 198.4-448 448-448s448 198.4 448 448C960 761.6 761.6 960 512 960z"
+                          p-id="2615"
+                        ></path>
+                        <path
+                          d="M467.2 748.8l89.6 0 0 89.6-89.6 0 0-89.6Z"
+                          p-id="2616"
+                        ></path>
+                        <path
+                          d="M512 185.6c-57.6 0-108.8 12.8-140.8 44.8s-57.6 76.8-64 134.4L384 377.6c6.4-44.8 19.2-76.8 44.8-96C454.4 262.4 480 249.6 512 249.6c32 0 64 12.8 89.6 32C627.2 307.2 640 332.8 640 364.8 640 384 633.6 396.8 627.2 416 614.4 428.8 601.6 448 569.6 473.6 544 492.8 524.8 512 518.4 524.8 499.2 544 492.8 556.8 486.4 576c-6.4 25.6-12.8 51.2-12.8 83.2 0 6.4 0 12.8 0 25.6l76.8 0c0-32 0-51.2 6.4-70.4S563.2 582.4 569.6 576c6.4-12.8 25.6-25.6 51.2-51.2 38.4-32 64-64 76.8-83.2s19.2-51.2 19.2-76.8c0-51.2-19.2-89.6-57.6-121.6C627.2 204.8 576 185.6 512 185.6z"
+                          p-id="2617"
+                        ></path>
+                      </svg>
+                    </div>
+                    <div class="more">
+                      查看更多
+                      <span class="dayuhao">></span>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <div class="smallcard">
+                      <div class="cardtext">总粉丝数</div>
+                      <div class="cardnum">0</div>
+                      <div class="cardbox">较前日 --</div>
+                    </div>
+                    <div class="smallcard">
+                      <div class="cardtext">文章展现数</div>
+                      <div class="cardnum">0</div>
+                      <div class="cardbox">较前日 --</div>
+                    </div>
+                    <div class="smallcard">
+                      <div class="cardtext">文章阅读数</div>
+                      <div class="cardnum">0</div>
+                      <div class="cardbox">较前日 --</div>
+                    </div>
+                    <div class="smallcard">
+                      <div class="cardtext">文章点赞数</div>
+                      <div class="cardnum">0</div>
+                      <div class="cardbox">较前日 --</div>
+                    </div>
+                    <div class="smallcard">
+                      <div class="cardtext">文章评论数</div>
+                      <div class="cardnum">0</div>
+                      <div class="cardbox">较前日 --</div>
+                    </div>
+                    <div class="smallcard">
+                      <div class="cardtext">文章收藏数</div>
+                      <div class="cardnum">0</div>
+                      <div class="cardbox">较前日 --</div>
+        </div>
+    </div>
+    <div class="zhiding">
+        <svg t="1689423984933" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="2920" width="32" height="32"><path d="M511.5648 358.4a12.7616 12.7616 0 0 0-9.6 3.8784L355.584 512.9088a12.8 12.8 0 1 0 18.368 17.8432L499.2 401.856V729.6a12.8 12.8 0 0 0 25.6 0V400.512l120.768 126.8736a12.8 12.8 0 1 0 18.5472-17.6512l-140.288-147.3536a12.7744 12.7744 0 0 0-10.5472-3.9168 12.9536 12.9536 0 0 0-1.7152-0.0512zM512 1024C229.2352 1024 0 794.7648 0 512S229.2352 0 512 0s512 229.2352 512 512-229.2352 512-512 512zM320 320h384a12.8 12.8 0 0 0 0-25.6H320a12.8 12.8 0 0 0 0 25.6z" fill="#000000" p-id="2921"></path></svg>
+    </div>
+</body>
+</html>
